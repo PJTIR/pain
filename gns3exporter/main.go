@@ -19,11 +19,11 @@ const(
 
 func main(){
 	// Checking all environment variables to be present
-	//projectName := os.Getenv("PROJECTNAME")
-	//url := os.Getenv("URL")
+	projectName := os.Getenv("PROJECTNAME")
+	url := os.Getenv("URL")
 
-	projectName := "testing"
-	url := "http://10.0.0.9:3080"
+	//projectName := "testing"
+	//url := "http://10.0.0.9:3080"
 
 	if projectName == ""{
 		log.Fatalf("The project name should not be empty\n")
