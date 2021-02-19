@@ -38,6 +38,8 @@ $ docker run -it --name exporter \
     --cap-add SYS_ADMIN \
     --device /dev/fuse \
     --security-opt apparmor:unconfined \
+    --env URL=http://172.21.185.1:3080 \
+    --env PROJECTNAME={projectname} # use "testing" to test
     gns3exporter:latest
 ```
 
