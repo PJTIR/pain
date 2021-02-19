@@ -6,18 +6,13 @@ The program can export configuration files from Cisco switches and routers virtu
 - python
 
 Docker is used to prevent cluttering the system with these programs.
-For now the whole thing is sort of reliant on Linux... So uh
-
-Working on Windows implementation!
-
-## ALSO THIS THING DOESN'T WORK YET BECAUSE OF THE VPN
 
 ## Instructions
 
 First of all:
 [Get Docker](https://docs.docker.com/get-docker/)
 
-Simply follow those instructions for your system. If you're using Windows, skip it all since it probably won't work anyway. (still testing)
+Simply follow those instructions for your system. If you're using Windows, just follow their instructions and install Docker desktop. Just use the command line!
 If you're using stupidly complicated distro's such as Gentoo, find it out yourself. You must be good at that by now.  
 _Tip: follow the [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)! If you don't all the following commands using Docker have to be preceded by sudo_
 
